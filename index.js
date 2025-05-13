@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 0; // Use 0 to get random available port
 
 app.get("/", (req, res) => {
-  res.send("Hello from Demo Node.js App!"); // Note the exclamation mark
+  res.send("Hello from Demo Node.js "); // Note the exclamation mark
 });
 
 app.get("/health", (req, res) => {
